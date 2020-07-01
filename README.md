@@ -18,8 +18,9 @@ NanoClicker is a free to use Autoclicker which is very lightweight with only 400
 + Minecraft only mode
 
 # Download
-*Note: Download link is monetized. If you want to share this Autoclicker please link to the official site.
-*link coming very soon
+
+[Click here to download](https://www.file-upload.com/aua34zcgpjvf)
+*Note: Download link is monetized.
 
 # Showcase
 *Video coming soon
