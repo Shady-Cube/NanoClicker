@@ -27,4 +27,4 @@ NanoClicker is a free to use Autoclicker which is very lightweight with only 300
 # Additional Info
 If you want to share this Autoclicker please only link to the official website.
 
-If you are concerned because you think this might be a virus [here](https://www.virustotal.com/gui/file/cd3428948e99eaff7f35f2fa80d7ac1b4c0540234f35cfd7c765eb9fd3fb4fa4/detection) is the VirusTotal Result. I think it got detected by 5/72 Engines because it has to be run as an administrator and because Self Destruct deletes a Prefetch file.
+If you are concerned because you think this might be a virus [here](https://www.virustotal.com/gui/file/cd3428948e99eaff7f35f2fa80d7ac1b4c0540234f35cfd7c765eb9fd3fb4fa4/detection) is the VirusTotal result. I think it got detected by 5/72 Engines because self destruct deletes a Prefetch file.
