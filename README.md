@@ -11,7 +11,7 @@ NanoClicker is a free to use Autoclicker which is very lightweight with only 400
 + Self Destruct
 + Very easy to use
 + All the settings are handled under the hood. All you have to do is select the average CPS
-+ Good for beginners, who don't understand much about AutoClickers
++ Good for beginners, who don't know much about AutoClickers
 + Written in C#
 + Easy to understand and use UI
 + Can be used outside of Minecraft
