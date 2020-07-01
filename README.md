@@ -2,10 +2,10 @@
 Official NanoClicker Website
 
 # What is NanoClicker?
-NanoClicker is a free to use Autoclicker which is very lightweight with only 300kbs. It is completely written in C#. You can bypass the Anticheat on most servers if you don't turn the CPS up too high.
+NanoClicker is a free to use Autoclicker which is very lightweight with only 400kbs. It is completely written in C#. You can bypass the Anticheat on most servers if you don't turn the CPS up too high.
 
 # Features
-+ Very lightweight (only 300kbs)
++ Very lightweight (only 400kbs)
 + Bypass on most servers
 + Very Reliable
 + Self Destruct
