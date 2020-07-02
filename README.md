@@ -1,5 +1,8 @@
 # NanoClicker
 Official NanoClicker Website
+[Official Shady-Cube Website](https://shady-cube.github.io/About/)  
+[Official Shady-Cube YouTube channel](https://www.youtube.com/channel/UC9EDLhh6ePIDCxXG0HKR0zw)  
+[Official Shady-Cube Discord Server](https://shady-cube.github.io/About/) *Note: Coming soon!  
 
 # What is NanoClicker?
 NanoClicker is a free to use Autoclicker which is very lightweight with only 400kbs. It is completely written in C#. You can bypass the Anticheat on most servers if you don't turn the CPS up too high.
