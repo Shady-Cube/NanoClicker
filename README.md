@@ -1,6 +1,6 @@
 # NanoClicker
-Official NanoClicker Website
-[Official Shady-Cube Website](https://shady-cube.github.io/About/)  
+Official NanoClicker Website  
+[Official Shady-Cube Website](https://shady-cube.github.io/Official-Shady-Cube-Website/)  
 [Official Shady-Cube YouTube channel](https://www.youtube.com/channel/UC9EDLhh6ePIDCxXG0HKR0zw)  
 [Official Shady-Cube Discord Server](https://shady-cube.github.io/About/) *Note: Coming soon!  
 
