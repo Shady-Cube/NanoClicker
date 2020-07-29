@@ -18,13 +18,12 @@ NanoClicker is a free to use Autoclicker which is very lightweight with only 400
 + Easy to understand and use UI
 + Can be used outside of Minecraft
 + Minecraft only mode
++ Right Click Autoclicker
 
 # Download
 
-[Click here to download](https://www.file-upload.com/is4w5viozc1c)
+[Click here to download](https://www.file-upload.com/tb6h0g63qczh)
 Note: Download link is monetized.
-
-[Alternative Download](https://direct-link.net/135551/NanoCl1cker)
 
 # Showcase
 Click to view:  
