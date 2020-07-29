@@ -33,8 +33,12 @@ namespace NanoClicker
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern void mouse_event(int dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
 
+        private const int RMUP = 0x0010;
+        private const int RMDOWN = 0x0008;
         private const int LMUP = 0x0004;
         private const int LMDOWN = 0x0002;
+        
+
         Random random = new Random(Convert.ToInt32(DateTime.Now.TimeOfDay.TotalMilliseconds));
 
         [DllImport("user32.dll")]
@@ -45,7 +49,8 @@ namespace NanoClicker
 
         int AVGcps = 13;
         string Hkey = "F";
-        bool LM_to_click = true;
+        bool Left_click = true;
+        bool Right_click = true;
         bool Mc_only = true;
 
         private string GetActiveWindowTitle()
@@ -113,7 +118,7 @@ namespace NanoClicker
 
             AverageCPS.Value = AVGcps;
             button3.Text = Hkey;
-            checkBox1.Checked = LM_to_click;
+            checkBox1.Checked = Left_click;
             checkBox2.Checked = Mc_only;
             label3.Text = Convert.ToString(AVGcps) + " CPS";
 
@@ -138,7 +143,7 @@ namespace NanoClicker
                 WebResponse ws = wr.GetResponse();
                 StreamReader sr = new StreamReader(ws.GetResponseStream());
 
-                double version = 13;
+                double version = 14;
                 double currentversion = Convert.ToDouble(sr.ReadToEnd());
 
                 if (version != currentversion)
@@ -195,11 +200,11 @@ namespace NanoClicker
         {
             if (checkBox1.Checked)
             {
-                LM_to_click = true;
+                Left_click = true;
             }
             else
             {
-                LM_to_click = false;
+                Left_click = false;
             }
         }
 
@@ -234,19 +239,32 @@ namespace NanoClicker
             {
                 string ActiveWindowTitle = GetActiveWindowTitle();
 
-                if (ActiveWindowTitle.Contains("inecraft") || ActiveWindowTitle.Contains("1.") || ActiveWindowTitle.Contains("avaw") || ActiveWindowTitle.Contains("unar") || ActiveWindowTitle.Contains("ounge")) { }
-                else
+                try
                 {
-                    return;
-                }                   
-            }        
+                    if (ActiveWindowTitle.Contains("inecraft") || ActiveWindowTitle.Contains("1.") || ActiveWindowTitle.Contains("avaw") || ActiveWindowTitle.Contains("unar") || ActiveWindowTitle.Contains("ounge")) { }
+                    else
+                    {
+                        return;
+                    }
+                }
+                catch (Exception)
+                {}
+                              
+            }
 
-            if (MouseButtons == MouseButtons.Left)
+            if (Right_click = true && MouseButtons == MouseButtons.Right)
+            {
+                mouse_event(RMUP, 0, 0, 0, 0);
+                Thread.Sleep(random.Next(4, 10));
+                mouse_event(RMDOWN, 0, 0, 0, 0);
+            }
+
+            if (Left_click = true && MouseButtons == MouseButtons.Left)
             {
                 mouse_event(LMUP, 0, 0, 0, 0);
                 Thread.Sleep(random.Next(4, 10));
                 mouse_event(LMDOWN, 0, 0, 0, 0);
-            }
+            }          
         }
 
         void myKeyDown(object sender, KeyEventArgs e)
@@ -274,6 +292,18 @@ namespace NanoClicker
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.youtube.com/channel/UC9EDLhh6ePIDCxXG0HKR0zw");
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == true)
+            {
+                Right_click = true;
+            }
+            else
+            {
+                Right_click = false;
+            }
         }
     }
 }

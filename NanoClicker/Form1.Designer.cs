@@ -39,6 +39,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -165,6 +166,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel3.Controls.Add(this.checkBox3);
             this.panel3.Controls.Add(this.checkBox2);
             this.panel3.Controls.Add(this.checkBox1);
             this.panel3.Controls.Add(this.button3);
@@ -174,6 +176,23 @@
             this.panel3.Size = new System.Drawing.Size(308, 64);
             this.panel3.TabIndex = 5;
             // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Checked = true;
+            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox3.FlatAppearance.BorderSize = 0;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.Font = new System.Drawing.Font("Unispace", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.ForeColor = System.Drawing.Color.White;
+            this.checkBox3.Location = new System.Drawing.Point(115, 34);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(100, 18);
+            this.checkBox3.TabIndex = 8;
+            this.checkBox3.Text = "Right click";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
@@ -181,7 +200,7 @@
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox2.Font = new System.Drawing.Font("Unispace", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.Color.White;
-            this.checkBox2.Location = new System.Drawing.Point(155, 35);
+            this.checkBox2.Location = new System.Drawing.Point(223, 35);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(72, 18);
             this.checkBox2.TabIndex = 7;
@@ -198,9 +217,9 @@
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(16, 35);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(135, 18);
+            this.checkBox1.Size = new System.Drawing.Size(93, 18);
             this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Hold LM to click";
+            this.checkBox1.Text = "Left click";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -308,7 +327,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 15);
             this.label7.TabIndex = 9;
-            this.label7.Text = "v.1.3";
+            this.label7.Text = "v.1.4";
             // 
             // Form1
             // 
@@ -366,6 +385,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.CheckBox checkBox3;
     }
 }
 
