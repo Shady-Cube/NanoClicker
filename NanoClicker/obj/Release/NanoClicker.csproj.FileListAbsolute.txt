@@ -1,0 +1,10 @@
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\bin\Release\NanoClicker.exe.config
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\bin\Release\NanoClicker.exe
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\bin\Release\NanoClicker.pdb
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.csprojAssemblyReference.cache
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.Form1.resources
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.Properties.Resources.resources
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.csproj.GenerateResource.cache
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.csproj.CoreCompileInputs.cache
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.exe
+C:\Users\name\Desktop\NanoClicker-master\NanoClicker\obj\Release\NanoClicker.pdb

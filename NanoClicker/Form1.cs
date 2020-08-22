@@ -143,7 +143,7 @@ namespace NanoClicker
                 WebResponse ws = wr.GetResponse();
                 StreamReader sr = new StreamReader(ws.GetResponseStream());
 
-                double version = 14;
+                double version = 15;
                 double currentversion = Convert.ToDouble(sr.ReadToEnd());
 
                 if (version != currentversion)
@@ -179,6 +179,7 @@ namespace NanoClicker
             {
                 string Hotkey;
                 Hotkey = e.KeyChar.ToString();
+                Hotkey = Hotkey.ToUpper();
                 button3.Text = Hotkey;
                 Hkey = Hotkey;
             }
@@ -241,7 +242,7 @@ namespace NanoClicker
 
                 try
                 {
-                    if (ActiveWindowTitle.Contains("inecraft") || ActiveWindowTitle.Contains("1.") || ActiveWindowTitle.Contains("avaw") || ActiveWindowTitle.Contains("unar") || ActiveWindowTitle.Contains("ounge")) { }
+                    if (ActiveWindowTitle.Contains("inecraft") || ActiveWindowTitle.Contains("1.") || ActiveWindowTitle.Contains("avaw") || ActiveWindowTitle.Contains("unar") || ActiveWindowTitle.Contains("ounge") || ActiveWindowTitle.Contains("eatBreaker")) { }
                     else
                     {
                         return;
