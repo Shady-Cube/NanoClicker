@@ -22,7 +22,7 @@ NanoClicker is a free to use Autoclicker which is very lightweight with only 400
 
 # Download
 
-[Click here to download](https://anonfiles.com/50o8R8Jbo2/NanoClicker_rar)
+[Click here to download](https://github.com/Shady-Cube/NanoClicker/releases/tag/1.5)
 
 # Showcase
 Click to view:  
